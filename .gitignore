@@ -1,0 +1,34 @@
+# Dados brutos — não versionar
+data/raw/
+
+# Modelos treinados (grandes demais para o Git)
+models/*.h5
+models/*.keras
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs e TensorBoard
+logs/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
